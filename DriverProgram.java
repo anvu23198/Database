@@ -411,7 +411,7 @@ public class DriverProgram
 	}
 
 
-sds
+
 	private static void tableProfessor_Office(String tableChoose) throws SQLException {
 	   	 String queryTable = "SELECT * FROM " + tableChoose + "";
 	        ResultSet rs = stmt.executeQuery(queryTable);
